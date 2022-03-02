@@ -8,11 +8,13 @@ padding:0;
 
 #logo {
 
-width:100%;
+width:50%;
+margin-left: 20px;
 
 }
 
 #menu {
+ text-align: center;   
 
 display:block;
 

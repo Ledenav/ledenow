@@ -70,6 +70,8 @@ forms.action= "https://tr.vuhuv.com/?q=";
 
 m1.href= "https://tr.vuhuv.com/?k=0&p=1&d=1&q=haberler";
 
+m2.href= "https://www.vuhuv.com.tr/?k=0&p=1&d=1&q=hakk%C4%B1nda";
+
 break;
 
 case "se2":
@@ -81,6 +83,8 @@ inp.placeholder= "ARTADO" +" "+ para;
 forms.action= "https://www.artadosearch.com/search?i=";
 
 m1.href= "https://www.artadosearch.com/Updates";
+
+m2.href= "https://www.artadosearch.com/About";
 
 break;
 
@@ -94,6 +98,8 @@ forms.action= "https://azimli.org/a.php?q=";
 
 m1.href= "https://azimli.org/sayfa/guncellemeler/";
 
+m2.href= "https://azimli.org/sayfa/hakkimizda/";
+
 break;
 
 case "se4":
@@ -104,6 +110,8 @@ forms.action= "https://turtc.com/tr/mobil/index.php?page=search/web&search=";
 
 m1.style.display="none";
 
+m2.href= "https://turtc.com/hakkimizda/";
+
 break;
 
 case "se5":
@@ -111,6 +119,8 @@ case "se5":
 inp.placeholder= "YETİTA" +" "+ para;
 
 forms.action= "https://www.yetita.com/site-ara?kelime=";
+
+m2.href= "https://www.yetita.com/hakkimizda";
 
 m1.style.display="none";
 
@@ -122,15 +132,7 @@ inp.placeholder= "BİLİVER" +" "+ para;
 
 forms.action= "https://www.biliver.com/search?q=";
 
-m1.style.display="none";
-
-break;
-
-case "se7":
-
-inp.placeholder= "OBİLİYO" +" "+ para;
-
-forms.action= "https://www.obiliyo.com/v1/mobil/index.php?page=search/web&search=";
+m2.href= "https://www.biliver.com/yerli-arama-motoru-biliver.pdf";
 
 m1.style.display="none";
 
@@ -141,6 +143,8 @@ case "se8":
 inp.placeholder= "RASTGELELİK" +" "+ para;
 
 forms.action= "http://www.rastgelelik.com/search?q=";
+
+m2.href= "https://www.rastgelelik.com/faq/1-1#3";
 
 m1.style.display="none";
 
@@ -154,6 +158,8 @@ forms.action= "http://ararim.net/ara?q=";
 
 m1.style.display="none";
 
+m2.href= "http://ararim.net/sayfa/ararim-yerli-arama-motoru";
+
 break;
 
 case "se10":
@@ -163,6 +169,8 @@ inp.placeholder= "COM" +" "+ para;
 forms.action= "https://com.com.tr/ara/?q=";
 
 m1.style.display="none";
+
+m2.style.display="none";
 
 break;
 
@@ -174,15 +182,7 @@ forms.action= "https://www.yaani.com/#q=";
 
 m1.style.display="none";
 
-break;
-
-case "se12":
-
-inp.placeholder= "VALLAKİ" +" "+ para;
-
-forms.action= "https://www.vallaki.com/web/search?q=";
-
-m1.style.display="none";
+m2.href= "https://www.yaani.com.tr/hakkimizda";
 
 break;
 

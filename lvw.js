@@ -1,78 +1,46 @@
+// This page was edited by LinuxUsersLinuxMint
 var clss = document.getElementById("m_cs");
-
 var menu = document.querySelector("#menu");
-
 var bodd = document.querySelector("#bodyy");
-
 var ss = document.querySelector("#s_s");
 
 clss.onclick=function(){
 
 if(menu.style.width=="60%"){
-
-menu.style.width=0;
-
-clss.innerHTML="🔎";
-
-clss.style.transform="rotate(360deg)";
-
-clss.style.transition=".4s";
-
-menu.style.transition=".4s";
-
+    menu.style.width=0;
+    clss.innerHTML="🔎";
+    clss.style.transform="rotate(360deg)";
+    clss.style.transition=".4s";
+    menu.style.transition=".4s";
 }else{
-
-inp.focus();
-
-menu.style.width="60%";
-
-clss.innerHTML="⛔";
-
-clss.style.transform="";
-
+    inp.focus();
+    menu.style.width="60%";
+    clss.innerHTML="⛔";
+    clss.style.transform="";
 }}
 
 bodd.onmouseenter=function(){
-
-menu.style.width=0;
-
-clss.innerHTML="🔎";
-
-clss.style.transform="rotate(360deg)";
-
-clss.style.transition=".4s";
-
-menu.style.transition=".4s";
-
+    menu.style.width=0;
+    clss.innerHTML="🔎";
+    clss.style.transform="rotate(360deg)";
+    clss.style.transition=".4s";
+    menu.style.transition=".4s";
 }
 
 var choo = document.querySelector("#s_es");
-
 var inp = document.querySelector("#s_bar");
-
 var forms =document.querySelector("#form");
-
 choo.onchange=function(){
-
 let para = "ile ara";
-
 let m1 = document.querySelector("#m1");
-
 switch(choo.value){
-
-case "se1":
-
-m1.style.display="block";
-
-inp.placeholder= "VUHUV" +" "+ para;
-
-forms.action= "https://tr.vuhuv.com/?q=";
-
-m1.href= "https://tr.vuhuv.com/?k=0&p=1&d=1&q=haberler";
-
-m2.href= "https://www.vuhuv.com.tr/?k=0&p=1&d=1&q=hakk%C4%B1nda";
-
-break;
+    case "se1":
+        m1.style.display="block";
+        inp.placeholder= "VUHUV" +" "+ para;
+        forms.action= "https://tr.vuhuv.com/?q=";
+        m1.href= "https://tr.vuhuv.com/?k=0&p=1&d=1&q=haberler";
+        m2.href= "https://www.vuhuv.com.tr/?k=0&p=1&d=1&q=hakk%C4%B1nda";
+        break;
 
 case "se2":
 

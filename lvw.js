@@ -1,4 +1,5 @@
 // This page was edited by LinuxUsersLinuxMint
+// Spaces have been removed and the text has been corrected.
 var clss = document.getElementById("m_cs");
 var menu = document.querySelector("#menu");
 var bodd = document.querySelector("#bodyy");
